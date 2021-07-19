@@ -9,9 +9,12 @@
         @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
-        h1 {
+        .box-content {
             margin-top: 40%;
             text-align: center;
+        }
+        div {
+            box-sizing: border-box;
         }
         footer {
             margin: 0;
@@ -31,6 +34,7 @@
 
         ::-webkit-scrollbar {
             width: 6px;
+            height: 4px;
             border: 1px rgb(214, 214, 214) solid;
             border-radius: 10px;
             border-left: #264653 solid 10px;
@@ -43,47 +47,89 @@
         ::-webkit-scrollbar-thumb:hover {
             background-color: #35c7b6;
         }
+
+        @media screen and (max-width: 700px) {
+            #textcontentdiv {
+                margin: auto;
+                margin-top: 75%;
+                margin-bottom: 60%;
+                box-sizing: border-box;
+            }
+            #textcontent1 {
+                margin: auto;
+                margin-top: 60%;
+            }
+            #textcontent2 {
+                margin: auto;
+                margin-top: 60%;
+            }
+            #textcontent3 {
+                margin: auto;
+                margin-top: 60%;
+            }
+            #thanks-div {
+                padding-bottom: 50%;
+            }
+        }
+
+        @media screen and (min-width: 700px) {
+            #textcontentdiv {
+                margin: auto;
+                margin-top: 20%;
+            }
+            #textcontent1 {
+                margin-right: 50%;
+            }
+            #textcontent2 {
+                margin-top: 20%;
+                margin-left: 50%;
+            }
+            #textcontent3 {
+                margin-top: 20%;
+                margin-right: 50%;
+            }
+        }
     </style>
 </head>
 <body>
-    <br><hr><br>
-    <div style="display: block;">
-        <div class="container" style="display: block; width: 95%; margin: auto; margin-bottom: 5%; overflow: auto; white-space: nowrap; transition: 1s; transform-origin: left;">
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-left: none; display: inline-block; box-sizing: border-box; background-color: #264653;"><h1>1</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #287271;"><h1>2</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #2A9D8F;"><h1>3</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #8AB17D;"><h1>4</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #E9C46A;"><h1>5</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #EFB366;"><h1>6</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #F4A261;"><h1>7</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #EE8959;"><h1>8</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #4A7071;"><h1>9</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #3F826D;"><h1>10</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #C03221;"><h1>11</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #D98163;"><h1>12</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #F2D0A4;"><h1>13</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #F5E4D2;"><h1>14</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #F7F7FF;"><h1>15</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #A6ABBA;"><h1>16</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #7D8598;"><h1>17</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #545E75;"><h1>18</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #B75D69;"><h1>19</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #774C60;"><h1>20</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #EACDC2;"><h1>21</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #EACDC2;"><h1>22</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #EACDC2;"><h1>23</h1></div>
-            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; display: inline-block; box-sizing: border-box; background-color: #EACDC2;"><h1>24</h1></div>
+    <br><br><hr>
+    <div style="display: block; padding-top: 5%;">
+        <div class="container" style="display: block; width: 95%; margin: auto; margin-bottom: 2%; overflow: auto; white-space: nowrap; transition: 1s; transform-origin: left;">
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: red;"><h1 class="box-content">1</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: orange;"><h1 class="box-content">2</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: yellow;"><h1 class="box-content">3</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: green;"><h1 class="box-content">4</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: blue;"><h1 class="box-content">5</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: indigo;"><h1 class="box-content">6</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: violet;"><h1 class="box-content">7</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: #EE8959;"><h1 class="box-content">8</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: #4A7071;"><h1 class="box-content">9</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: #3F826D;"><h1 class="box-content">10</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: #C03221;"><h1 class="box-content">11</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: #D98163;"><h1 class="box-content">12</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: #F2D0A4;"><h1 class="box-content">13</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: #F5E4D2;"><h1 class="box-content">14</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: #F7F7FF;"><h1 class="box-content">15</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: #A6ABBA;"><h1 class="box-content">16</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: #7D8598;"><h1 class="box-content">17</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: #545E75;"><h1 class="box-content">18</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: #B75D69;"><h1 class="box-content">19</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: #774C60;"><h1 class="box-content">20</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: #EACDC2;"><h1 class="box-content">21</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: #EACDC2;"><h1 class="box-content">22</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: #EACDC2;"><h1 class="box-content">23</h1></div>
+            <div class="box" style=" height: 200px; width: 175px; border: 2px solid black; border-radius: 50%; display: inline-block; box-sizing: border-box; background-color: #EACDC2;"><h1 class="box-content">24</h1></div>
         </div>
     </div>
-    <hr>
+    <br><hr>
 
-    <div>
-        <h1 style="margin-top: 75%; font-family: 'Dancing Script', cursive; color: darkolivegreen;">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, consequatur cupiditate repudiandae pariatur rerum saepe. Asperiores, doloremque aliquam."</h1>
-        <h3 style="margin-top: 75%; font-family: 'Yomogi', cursive; color: #774C60;">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, consequatur cupiditate repudiandae pariatur rerum saepe. Asperiores, doloremque aliquam. Non deserunt itaque eaque suscipit perspiciatis magnam saepe ex maxime iusto Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum corporis dolorum? Cum quaerat modi temporibus.."</h3>
-        <p style="margin-top: 75%; margin-bottom: 75%; font-family: 'Yomogi', cursive; color: #545E75;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, possimus nulla! Autem necessitatibus, deleniti similique placeat tempore illum debitis consectetur ipsum quaerat modi, harum nihil alias quis eveniet id ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vel tempore dolores nisi voluptatum, omnis, et officiis obcaecati repellendus aperiam nostrum tenetur dolorem nesciunt recusandae, labore veritatis eius facilis soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quibusdam dicta aperiam velit magni rerum, nulla ut sunt temporibus totam enim ad autem laboriosam eaque perspiciatis, laborum voluptas porro repellendus...</p>    
+    <div id="textcontentdiv" style="display: block; width: 85%;">
+        <h1 id="textcontent1" style="font-family: 'Dancing Script', cursive; color: darkolivegreen; ">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, consequatur cupiditate repudiandae pariatur rerum saepe. Asperiores, doloremque aliquam." Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum sunt aspernatur asperiores laboriosam inventore dolorem amet!</h1>
+        <h3 id="textcontent2" style="font-family: 'Yomogi', cursive; color: #774C60;">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, consequatur cupiditate repudiandae pariatur rerum saepe. Asperiores, doloremque aliquam. Non deserunt itaque eaque suscipit perspiciatis magnam saepe ex maxime iusto Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum corporis dolorum? Cum quaerat modi temporibus.."</h3>
+        <p id="textcontent3" style="font-family: 'Yomogi', cursive; color: #545E75;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, possimus nulla! Autem necessitatibus, deleniti similique placeat tempore illum debitis consectetur ipsum quaerat modi, harum nihil alias quis eveniet id ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vel tempore dolores nisi voluptatum, omnis, et officiis obcaecati repellendus aperiam nostrum tenetur dolorem nesciunt recusandae, labore veritatis eius facilis soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quibusdam dicta aperiam velit magni rerum, nulla ut sunt temporibus totam enim ad autem laboriosam eaque perspiciatis, laborum voluptas porro repellendus...</p>    
     </div>
 
-    <div style="display: block; margin-top: 25%; margin-bottom: 25%; width: 100%; text-align: center;">
+    <div id="thanks-div" style="display: block; margin-top: 25%; margin-bottom: 25%; width: 100%; text-align: center;">
         <h3 style="display: block; width: 70%; margin: auto;">Thanks for visiting!</h3>
         <p style="font-size: 1.5em; margin: 0; padding: 0;">😉</p>
     </div>
@@ -91,6 +137,5 @@
     <footer>
         <h5>- with ❤ from 'Sushil Dikondwar' *</h5>
     </footer>
-
 </body>
 </html>
